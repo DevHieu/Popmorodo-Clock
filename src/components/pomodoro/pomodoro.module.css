@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background:#223;
+}
+.allPomodoro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(217, 217, 228);
+    margin-bottom: 300px;
+}
+.clock-input {
+    width: 90px;
+    height: 50px;
+    text-align: center;
+    position: relative;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+    top: 200px;
+    left: 30px;
+    display: flex;
+}
+.countdown {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    font-weight: 900;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    position: absolute;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 180px;
+}
+.all {
+    position: relative;
+    top: 200px;
+}
+button {
+    padding: 10px 20px;
+    margin: 20px;
+}
+.start {
+    background: #6c8;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+.stop {
+    background: #c7aa20;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+.reset {
+    background: #e55;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+@media screen and (max-width: 768px) {
+    .all {
+        top:300px;
+    }
+    .allPomodoro {
+        margin-bottom: 350px;
+    }
+}
